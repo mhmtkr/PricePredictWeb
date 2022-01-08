@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),  # When the default url ("") is opened "home" function in the "views" file should be executed
     path('predict/', views.predict),
+    path('predict/result/', views.result),
 ]
