@@ -7,11 +7,21 @@
     <title>Home</title>
     <style>
         body{
-        background-image:url("{%static 'AppBg.png' %}")
+            background-image:url("{%static 'AppBg.png' %}");
+        }
+        input[type = submit]{
+            cursor:pointer;
+            padding: 16px 32px;
+            background-color: #FFFFFF;
+            font-family:'Franklin Gothic Medium';
+            font-size: larger;
         }
     </style>
 </head>
-<body>
-   <p>Welcome to my home page!</p>
+<body style="text-align:center">
+ <!--  <p>Welcome to my home page!</p> -->
+    <form action="predict">
+        <input type="submit" value = "PREDICT">
+    </form>
 </body>
 </html>
