@@ -1,4 +1,4 @@
 # ValueFinder
-Price Prediction System 
+Price Prediction Web App 
 
-Stack: Python, Django, HTML, CSS
+Tech Stack: Python, Django, HTML, CSS, Docker
